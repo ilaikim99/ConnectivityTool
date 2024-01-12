@@ -1,0 +1,13 @@
+# Example YAML File
+
+LATENCY: 0.2
+
+DNS:
+  - ynet.co.il
+  - yahoo2354354.com
+
+HTTP:
+  - http://www.google.com
+
+HTTPS:
+  - https://www.facebook.com
