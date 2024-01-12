@@ -1,30 +1,4 @@
 url,protocol,is_success,additional_info,datetime
-ynet.co.il,DNS,True,,2024-01-12 15:54:17.880448
-yahoo.com,DNS,True,,2024-01-12 15:54:17.880448
-http://www.google.com,HTTP,True,{'LATENCY': 0.1748344898223877},2024-01-12 15:54:18.056283
-https://www.facebook.com,HTTPS,True,{'LATENCY': 0.7026259899139404},2024-01-12 15:54:18.759937
-ynet.co.il,DNS,True,,2024-01-12 15:54:38.025341
-yahoo.com,DNS,True,,2024-01-12 15:54:38.026343
-http://www.google.com,HTTP,True,{'LATENCY': 0.1556103229522705},2024-01-12 15:54:38.181953
-https://www.facebook.com,HTTPS,True,{'LATENCY': 0.5585973262786865},2024-01-12 15:54:38.741570
-ynet.co.il,DNS,True,,2024-01-12 15:56:49.099673
-yahoo.com,DNS,True,,2024-01-12 15:56:49.102612
-ynet.co.il,DNS,True,,2024-01-12 16:00:38.561600
-yahoo.com,DNS,True,,2024-01-12 16:00:38.562601
-ynet.co.il,DNS,True,,2024-01-12 16:01:49.443116
-yahoo.com,DNS,True,,2024-01-12 16:01:49.445116
-ynet.co.il,DNS,True,,2024-01-12 16:02:16.771004
-yahoo.com,DNS,True,,2024-01-12 16:02:16.773052
-ynet.co.il,DNS,True,,2024-01-12 16:04:56.791230
-yahoo.com,DNS,True,,2024-01-12 16:04:56.792177
-ynet.co.il,DNS,True,,2024-01-12 16:05:28.700358
-yahoo.com,DNS,True,,2024-01-12 16:05:28.701332
-ynet.co.il,DNS,True,,2024-01-12 16:06:29.932224
-yahoo.com,DNS,True,,2024-01-12 16:06:29.935179
-ynet.co.il,DNS,True,,2024-01-12 16:06:38.088001
-yahoo.com,DNS,True,,2024-01-12 16:06:38.088001
-http://www.google.com,HTTP,True,{'LATENCY': 0.15415024757385254},2024-01-12 16:06:38.247177
-https://www.facebook.com,HTTPS,True,{'LATENCY': 1.0495495796203613},2024-01-12 16:06:39.310720
 ynet.co.il,DNS,True,,2024-01-12 16:07:40.909490
 yahoo.com,DNS,True,,2024-01-12 16:07:40.912484
 http://www.google.com,HTTP,True,{'LATENCY': 0.1578366756439209},2024-01-12 16:07:41.075293
