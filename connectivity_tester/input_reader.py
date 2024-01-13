@@ -37,12 +37,12 @@ class YamlInputReader(InputReader):
             print(f"Error parsing yaml content. \n {e}")
             raise SystemExit(1)
 
-    def generate_test_instances(self):
+    def generate_test_instances(self) -> List[TestInstance]:
         test_instances = []
         for protocol_type in ProtocolType:
             test_instances.extend(self.get_instances_for_protocol(protocol_type))
         return test_instances
 
-    def get_instances_for_protocol(self, protocol_type: ProtocolType):
+    def get_instances_for_protocol(self, protocol_type: ProtocolType) -> List[TestInstance]:
         urls: List[str] = self.yaml_data.get(protocol_type.value, [])
         return [TestInstance(url, protocol_type) for url in urls]

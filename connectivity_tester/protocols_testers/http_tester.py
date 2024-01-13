@@ -23,10 +23,3 @@ class HttpTester(ProtocolTester):
             return TestResult(True, {LATENCY_KEY: latency})
         except requests.RequestException as e:
             return TestResult(False)
-
-
-if __name__ == "__main__":
-    h=HttpTester()
-    r = h.test("https://www.facebook.com")
-    print(r.is_success)
-    print(r.additional_info)

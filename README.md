@@ -26,7 +26,7 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Run the script (input/output files are optional, will use the default once from example dir).
+Run the script (input/output files are optional, will use the default files from example dir).
 
 ```bash
 python run.py --input_file path_to_input.yaml --output_file path_to_output.csv
@@ -50,7 +50,9 @@ python -m pytest test
 
 ## Future Improvements
 
-- Add lock when writing to the csv, to avoid race condition.
-- Store the results in a dedicated DB rather than a file (e.g: adding orm model to TestInstance using sqlalchemy, or implementing different ResultsStorage class).
 - Add bandwidth test - in http_tester.py the test function will call a new bandwidth_test function, and the result will be added to the additional_info dict.
 - Make it a plug & play tool - upload the code as package to pypi. And just doing pip install connectivity-tool, and running connectivity-tool command from terminal will run the tests.
+- Add lock when writing to the csv, to avoid race conditions.
+- Store the results in a dedicated DB rather than a file (e.g: adding orm model to TestInstance using sqlalchemy/implementing different ResultsStorage class).
+- Add more documentation in the code.
+- Add more unit tests.
